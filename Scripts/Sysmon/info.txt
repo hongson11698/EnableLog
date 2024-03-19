@@ -1,0 +1,12 @@
+Some windows versions doestn' work with lastest Sysmon, we need to put compitable sysmon executable and config file for each windows version with correct name to handle this. Eg:
+
+- Vista_and_2k8: 
+    - Get Sysmon 8.04 version
+    - Sysmon file name: Sysmon_for_windows_6.0.exe
+    - Sysmon config file name: Sysmon_for_windows_6.0.xml (using config file compitable with sysmon 8.04, eg https://github.com/olafhartong/sysmon-modular/tree/version-8)
+- Windows_7_2k8_r2: sysmon 8.04, Sysmon_for_windows_6.1.exe, Sysmon_for_windows_6.1.xml (https://github.com/olafhartong/sysmon-modular/tree/v10.4)
+- Windows_8_2012: sysmon 10.4, Sysmon_for_windows_6.2.exe, Sysmon_for_windows_6.2.xml (https://github.com/olafhartong/sysmon-modular/tree/v10.4)
+- Win81_and_above: sysmon 11+, Sysmon_for_windows_6.3.exe, Sysmon_for_windows_6.3.xml (https://github.com/olafhartong/sysmon-modular/tree/master)
+
+
+
